@@ -31,8 +31,9 @@ function jugar(opcionesId)
 
 	//Obtenemos la jugada y la mostramos en el div con id jugada
 	var jugada = document.getElementById("jugada").innerHTML = "Tu juegas " + jugadaUsuario + " <img src='img/" + jugadaUsuario + ".png' title='" + jugadaUsuario + "'> contra <img src='img/" + jugadaMaquina + ".png' title='" + jugadaMaquina + "'>" + jugadaMaquina + ".";
-
+	sleep(5000);
 	resultado();
+	sleep(5000);
 
 	document.getElementById("puntos").innerHTML ="<p><strong>Puntos Usuario: </strong> <h1>" + puntosUsuario + "</h1></p> <p><strong>Puntos Máquina: </strong> <h1>" + puntosMaquina + "</h1></p>";
 
@@ -102,4 +103,12 @@ function resultado()
 		if(jugadaMaquina == "Lagarto")perdiste();
 		if(jugadaMaquina == "Spock")empataste();
 	}
+}
+function sleep(milisegundos) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milisegundos){
+      break;
+    }
+  }
 }
