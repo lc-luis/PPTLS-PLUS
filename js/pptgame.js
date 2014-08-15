@@ -117,14 +117,5 @@ function sleep(milisegundos)
 }
 function mostrarReglas()
 {
-	alert("Las Tijeras Cortan al papel.\n
-			El Papel Cubre a la piedra.\n
-			La piedra aplasta al lagarto.\n
-			El lagarto envenena al Spock.\n
-			El Spock destroza las tijeras.\n
-			Las tijeras decapitan al lagarto.\n
-			El lagarto se come al papel.\n
-			El papel refuta a Spock.\n
-			Spock vaporiza la piedra.\n
-			La Piedra aplasta las tijeras.");
+	alert("Las Tijeras Cortan al papel.\nEl Papel Cubre a la piedra.\nLa piedra aplasta al lagarto.\nEl lagarto envenena al Spock.\nEl Spock destroza las tijeras.\nLas tijeras decapitan al lagarto.\nEl lagarto se come al papel.\nEl papel refuta a Spock.\nSpock vaporiza la piedra.\nLa Piedra aplasta las tijeras.");
 }
