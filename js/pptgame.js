@@ -31,7 +31,7 @@ function jugar(opcionesId)
 
 	//Obtenemos la jugada y la mostramos en el div con id jugada
 	var jugada = document.getElementById("jugada").innerHTML = "Tu juegas " + jugadaUsuario + " <img src='img/" + jugadaUsuario + ".png' title='" + jugadaUsuario + "'> contra <img src='img/" + jugadaMaquina + ".png' title='" + jugadaMaquina + "'>" + jugadaMaquina + ".";
-	sleep(5000);
+	sleep(10000);
 	resultado();
 	sleep(5000);
 
