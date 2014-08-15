@@ -1,0 +1,93 @@
+/* PPT Game CSS */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body{
+    text-align: center;
+    position: relative;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 75%;
+    margin: 10% 0 0 -40%;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 1%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+#creditos {
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 1%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #bbb;
+}
+
+small{
+    font-size: 75%;
+}
+
+.opciones{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.opciones div img {
+    width: calc(100%/5);
+    display: block;
+    float: left;
+    margin: 0% 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#jugada{
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0.5em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+#jugada strong{
+    font-weight: 700;
+}
+#jugada div img {
+    width: calc(100%/2);
+    display: block;
+    float: left;
+    margin: 0% 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#resultado{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0.1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
