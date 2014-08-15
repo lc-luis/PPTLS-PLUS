@@ -14,6 +14,28 @@ main{
     width: 75%;
     margin: 10% 0 0 -40%;
 }
+.opciones img
+{
+    display: inline-block;
+    padding: 0;
+    margin-right: 10px;
+    width: 15%;
+    border-radius:100px;
+    position:relative;
+    border-bottom:0 solid #BD8B4E;
+    box-shadow:0 5px 5px #BD8B4E,0 9px 0 #5e3a25,0px 9px 10px rgba(0,0,0,0.4),inset 0px 2px 9px rgba(255,255,255,0.2),inset 0 -2px 9px rgba(0,0,0,0.2);
+}
+.opciones img:hover 
+{
+    opacity: 0.75;
+    box-shadow:0 5px 5px #BD8B4E,0 9px 0 #5e3a25,0px 9px 10px rgba(0,0,0,0.4),inset 0px 2px 15px rgba(255,255,255,0.4),inset 0 -2px 9px rgba(0,0,0,0.2);
+}
+
+.opciones img:active
+{
+    top:15px;
+    box-shadow:0 2px 0 #BD8B4E,0px 4px 4px rgba(0,0,0,0.4),inset 0px 2px 5px rgba(0,0,0,0.2);
+}
 
 h1{
     width: 100%;
