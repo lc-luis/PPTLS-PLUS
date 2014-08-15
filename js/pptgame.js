@@ -104,11 +104,27 @@ function resultado()
 		if(jugadaMaquina == "Spock")empataste();
 	}
 }
-function sleep(milisegundos) {
+function sleep(milisegundos) 
+{
   var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milisegundos){
+  for (var i = 0; i < 1e7; i++) 
+  {
+    if ((new Date().getTime() - start) > milisegundos)
+    {
       break;
     }
   }
+}
+function mostrarReglas()
+{
+	alert("Las Tijeras Cortan al papel.\n
+			El Papel Cubre a la piedra.\n
+			La piedra aplasta al lagarto.\n
+			El lagarto envenena al Spock.\n
+			El Spock destroza las tijeras.\n
+			Las tijeras decapitan al lagarto.\n
+			El lagarto se come al papel.\n
+			El papel refuta a Spock.\n
+			Spock vaporiza la piedra.\n
+			La Piedra aplasta las tijeras.");
 }
