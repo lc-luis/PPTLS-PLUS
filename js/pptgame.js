@@ -31,7 +31,7 @@ function jugar(opcionesId)
 
 	//Obtenemos la jugada y la mostramos en el div con id jugada
 	var jugada = document.getElementById("jugada").innerHTML = "Tu juegas " + jugadaUsuario + " <img src='img/" + jugadaUsuario + ".png' title='" + jugadaUsuario + "'> contra <img src='img/" + jugadaMaquina + ".png' title='" + jugadaMaquina + "'>" + jugadaMaquina + ".";
-	sleep(5000);
+	sleep(1000);
 	resultado();
 	
 
@@ -49,21 +49,16 @@ function resultado()
 	//funciones para mostrar el resultado
 	function ganaste()
 	{
-		sleep(5000);
 		document.getElementById("resultado").innerHTML = "<img src='img/ganaste.png'>";
-		sleep(5000);
 		puntosUsuario += 1;
 	}
 	function perdiste()
 	{
-		sleep(5000);
 		document.getElementById("resultado").innerHTML = "<img src='img/perdiste.png'>";
-		sleep(5000);
 		puntosMaquina += 1;
 	}
 	function empataste()
 	{
-		sleep(5000);
 		document.getElementById("resultado").innerHTML = "<img src='img/empate.png'>";
 	}
 
