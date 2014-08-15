@@ -91,5 +91,5 @@ small{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
-#lista ul { list-style-image: url("../img/arrow.png"); color:#eee; font-size:18px; }
+#lista ul { list-style-image: url("img/arrow.png"); color:rgba(51, 55, 224, 0.97) font-size:18px; }
 #lista ul li { line-height:30px; }
